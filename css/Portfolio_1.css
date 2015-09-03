@@ -1,6 +1,8 @@
 *{
-    font-family: fantasy;
+    font-family: serif;
 }
-header{
-
+#header{
+    font-family: fantasy;
+    font-size: xx-large;
+    text-align: center;
 }
