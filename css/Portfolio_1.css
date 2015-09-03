@@ -1,8 +1,15 @@
 *{
     font-family: serif;
 }
-#header{
+.header{
     font-family: fantasy;
     font-size: xx-large;
     text-align: center;
+    color: slategray;
+}
+#personal_info{
+    font-family: fantasy;
+    font-size: large;
+    text-align: center;
+    color: slategray;
 }
