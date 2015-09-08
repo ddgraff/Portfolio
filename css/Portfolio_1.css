@@ -9,11 +9,15 @@ body {
     background-attachment: fixed;
 }
 
-.contact{
+.contact {
     float: right;
     font-family: fantasy;
     font-size: x-large;
     color: darkslategray;
+}
+
+a.contact:hover, a.contact:active {
+    color: cadetblue;
 }
 
 .header {
@@ -24,7 +28,7 @@ body {
     margin: 10px;
 }
 
-.footer{
+.footer {
     font-family: fantasy;
     font-size: x-large;
     text-align: left;
@@ -39,4 +43,8 @@ body {
     font-size: large;
     text-align: left;
     color: aqua;
+}
+
+#transition_1 {
+
 }
