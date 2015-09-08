@@ -1,15 +1,42 @@
-*{
-    font-family: serif;
+* {
+    font-family: sans-serif;
+    color: dimgray;
 }
-.header{
+
+body {
+    background-image: url("../images/Paper-Background-Texture.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contact{
+    float: right;
+    font-family: fantasy;
+    font-size: x-large;
+    color: darkslategray;
+}
+
+.header {
     font-family: fantasy;
     font-size: xx-large;
-    text-align: center;
-    color: slategray;
+    text-align: left;
+    color: darkslategray;
+    margin: 10px;
 }
-#personal_info{
+
+.footer{
     font-family: fantasy;
+    font-size: x-large;
+    text-align: left;
+    color: darkslategray;
+}
+
+/* TODO .bw_wrap{
+
+}*/
+
+#contact_me {
     font-size: large;
-    text-align: center;
-    color: slategray;
+    text-align: left;
+    color: aqua;
 }
