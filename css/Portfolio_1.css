@@ -9,14 +9,21 @@ body {
     background-attachment: fixed;
 }
 
+.header_image{
+    width: 25%; length: 25%;
+    float: left;
+    margin: 10px;
+}
+
 .contact {
     float: right;
     font-family: fantasy;
     font-size: x-large;
     color: darkslategray;
+    margin: 10px;
 }
 
-a.contact:hover, a.contact:active {
+.contact:hover{
     color: cadetblue;
 }
 
@@ -39,12 +46,15 @@ a.contact:hover, a.contact:active {
 
 }*/
 
-#contact_me {
-    font-size: large;
-    text-align: left;
-    color: aqua;
-}
-
 #transition_1 {
 
+}
+
+.message_area{
+    min-height: 200px;
+    min-width: 50%;
+}
+
+.form_area{
+    min-width: 200px;
 }

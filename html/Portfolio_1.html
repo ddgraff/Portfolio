@@ -6,10 +6,11 @@
     <link href="../css/Portfolio_1.css" rel="stylesheet">
 </head>
 <body>
-<header>
-    <div class="header">
+<header class="header">
         Daniel Graff
         <a href="#hello" class="contact">Contact</a>
+        <a href="Biography.html" class="contact">Bio</a>
+        <img src="../images/BYUH.jpg" alt="Picture of me" class="header_image">
     </div>
 </header>
 <hr>
@@ -90,16 +91,16 @@
 <hr>
 <footer>
     <div class="footer">
+        About Me<br>
+        I am having all sorts of fun learning to use HTML and CSS
         <section id="hello"> Hello!</section>
-        <br>
-
         <form action="MAILTO:ddgraff12@gmail.com" method="post" enctype="text/plain" id="contact_me">
             <label>Name</label><br>
-            <input type="text" name="name" size="30" spellcheck="true"><br>
+            <input class="form_area" type="text" name="name" spellcheck="true"><br>
             <label>E-mail</label><br>
-            <input type="email" name="email" size="30"><br>
+            <input class="form_area" type="email" name="email"><br>
             <label>Your message</label><br>
-            <input type="text" name="message" spellcheck="true"><br><!--TODO format this to have height-->
+            <input class="message_area" type="text" name="message" spellcheck="true"><br>
             <input type="submit" value="Send Message">
         </form>
     </div>
