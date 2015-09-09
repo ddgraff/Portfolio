@@ -9,8 +9,13 @@ body {
     background-attachment: fixed;
 }
 
+article{
+    border: thick;
+    border-radius: 25%;
+}
+
 .header_image{
-    width: 25%; length: 25%;
+    width: 5%; length: 5%;
     float: left;
     margin: 10px;
 }
@@ -51,10 +56,10 @@ body {
 }
 
 .message_area{
-    min-height: 200px;
-    min-width: 50%;
+    height: 200px;
+    width: 35%;
 }
 
 .form_area{
-    min-width: 200px;
+    min-width: 25%;
 }
