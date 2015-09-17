@@ -9,9 +9,30 @@ body {
     background-attachment: fixed;
 }
 
-article{
-    border: thick;
-    border-radius: 25%;
+.round_image{
+    box-sizing: border-box;
+    border-radius: 100%;
+    border: 10px solid burlywood;
+    width: 30%;
+    height: auto;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    max-width: 100%;
+    max-height: 100%;
+}
+.round_image:hover{
+    box-sizing: border-box;
+    border-radius: 100%;
+    border: 10px solid burlywood;
+    width: 30%;
+    height: auto;
+    filter: none;
+    -webkit-filter: none;
+    -webkit-transition: 1s;
+    -moz-transition:  1s ;
+    -ms-transition:  1s ;
+    -o-transition:  1s ;
+    transition:  1s ;
 }
 
 .header_image{
