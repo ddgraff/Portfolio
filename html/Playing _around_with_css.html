@@ -2,112 +2,150 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
     <title> Daniel Graff - Playing around with CSS </title>
-    <link href="../css/Portfolio_1.css" rel="stylesheet">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/round-about.css" rel="stylesheet">
+
+    <!-- Personal CSS -->
+    <link href="../css/Playing_around_with_css.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 <body>
-<header class="header">
-    Daniel Graff
-    <a href="#hello" class="contact">Contact</a>
-    <a href="Biography.html" class="contact">Full Bio</a>
-    <a href="#about" class="contact">About</a>
-    <img src="../images/BYUH.jpg" alt="Picture of me" class="header_image">
+
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#contact_me" class="navbar-brand"> Daniel Graff </a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+
+                <li>
+                    <a href="index.html"> Home </a>
+                </li>
+                <li>
+                    <a href="Playing%20_around_with_css.html"> Playing around with CSS </a>
+                </li>
+                <li>
+                    <a href="Resume.html"> Resume </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/profile/view?id=AAIAABD_M7IBx4a0xy7GdDXiHC5FLiGWykv8FQQ&trk=nav_responsive_tab_profile"
+                       target="_blank"> Linked in </a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
     </div>
-</header>
-<hr>
-<hr>
+    <!-- /.container -->
+</nav>
+
 <div>
+    <h3> Hover transitions </h3>
     <a href="http://monsterhunter.wikia.com/wiki/Monster_Hunter_Wiki" target="_blank"><img class="round_image"
-                                                                           src="http://img4.wikia.nocookie.net/__cb20091216224747/monsterhunter/images/0/05/TigrexBlademaster.png"
-                                                                           alt="Tigrex armor"></a>
+                                                                                           src="http://img4.wikia.nocookie.net/__cb20091216224747/monsterhunter/images/0/05/TigrexBlademaster.png"
+                                                                                           alt="Tigrex armor"></a>
+    <br>
+    <hr>
+    <div>
+        <table>
+            <tr>
+                <th>Column One</th>
+                <th>Column Two</th>
+                <th>Column Three</th>
+            </tr>
+            <tr>
+                <td>Johnny</td>
+                <td>Suzzy</td>
+                <td>Bob</td>
+            </tr>
+            <tr>
+                <td>OK</td>
+                <td>Sure</td>
+                <td>Hurray</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+</div>
+
+<hr>
+<!-- learning to use forms -->
+<div>
+    <h3>Learning to use forms</h3>
+
+    <form action="MAILTO:ddgraff12@gmail.com" method="post" enctype="text/plain" id="contact_me">
+        <label class="footer">Name</label> <br>
+        <input class="form_area" type="text" name="name" spellcheck="true"> <br>
+        <hr align="left" width="30%">
+        <label class="footer">E-mail</label> <br>
+        <input class="form_area" type="email" name="email"> <br>
+        <hr align="left" width="30%">
+        <label class="footer">Your message</label> <br>
+        <textarea rows="10" cols="30" class="message_area" type="text" name="message" spellcheck="true"></textarea>
+        <br>
+        <input type="submit" value="Send Message">
+    </form>
+</div>
+
+<hr>
+
+
+<!-- Footer -->
+<footer>
+    <div class="row">
+        <div class="col-lg-12">
+            <section id="contact_me"><h2>Contact Me</h2></section>
+            <p>
+
+            <h3>Email:
+                <a href="mailto:ddgraff12@gmail.com?Subject=Hello" target="_top">ddgraff12@gmail.com</a>
+            </h3>
+            </p>
+
+            <p>
+
+            <h3>Phone: (732)-228-9930</h3>
+            </p>
+        </div>
+        <!-- /.col-lg-12 -->
+    </div>
+    <!-- /.row -->
+</footer>
 
 </div>
-<ol>
-    <li>Hi</li>
-    <li>there</li>
-    <li>Hi</li>
-    <li>there</li>
-    <li>Hi</li>
-    <li>there</li>
-    <li>Hi</li>
-    <li>there</li>
-    <li>Hi</li>
-    <li>there</li>
-    <li>Hi</li>
-    <li>there</li>
-    <li>Hi</li>
-    <li>there</li>
-    <li>Hi</li>
-    <li>there</li>
-    <li>Hi</li>
-    <li>there</li>
-    <li>Hi</li>
-    <li>there</li>
-    <li>Hi</li>
-    <li>there</li>
-    <li>Hi</li>
-    <li>there</li>
-    <li>Hi</li>
-    <li>there</li>
-    <li>Hi</li>
-    <li>there</li>
-    <li>Hi</li>
-    <li>there</li>
-    <li>Hi</li>
-    <li>there</li>
-    <li>Hi</li>
-    <li>there</li>
-    <li>Hi</li>
-    <li>there</li>
-    <li>Hi</li>
-    <li>there</li>
-    <li>Hi</li>
-    <li>there</li>
-    <li>Hi</li>
-    <li>there</li>
-    <li>Hi</li>
-    <li>there</li>
-    <li>Hi</li>
-    <li>there</li>
-    <li>Hi</li>
-    <li>there</li>
-    <li>Hi</li>
-    <li>there</li>
-    <li>Hi</li>
-    <li>there</li>
-    <li>Hi</li>
-    <li>there</li>
-    <li>Hi</li>
-    <li>there</li>
-    <li>Hi</li>
-    <li>there</li>
-    <li>Hi</li>
-    <li>there</li>
-    <li>Hi</li>
-    <li>there</li>
-    <li>Hi</li>
-    <li>there</li>
-</ol>
-</div>
-<hr>
-<footer>
-    <div class="footer">
-        <section id="about" class="footer">About Me</section>
-        <p class="footer">I am having all sorts of fun learning to use HTML and CSS</p>
-        <section id="hello" class="footer">Hello!</section>
-        <form action="MAILTO:ddgraff12@gmail.com" method="post" enctype="text/plain" id="contact_me">
-            <label class="footer">Name</label> <br>
-            <input class="form_area" type="text" name="name" spellcheck="true"> <br>
-            <hr align="left" width="30%">
-            <label class="footer">E-mail</label> <br>
-            <input class="form_area" type="email" name="email"> <br>
-            <hr align="left" width="30%">
-            <label class="footer">Your message</label> <br>
-            <textarea rows="10" cols="30" class="message_area" type="text" name="message" spellcheck="true"></textarea>
-            <br>
-            <input type="submit" value="Send Message">
-        </form>
-    </div>
-</footer>
+<!-- /.container -->
+
+<!-- jQuery -->
+<script src="../js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="../js/bootstrap.min.js"></script>
 </body>
 </html>

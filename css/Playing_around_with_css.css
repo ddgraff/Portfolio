@@ -9,6 +9,22 @@ body {
     background-attachment: fixed;
 }
 
+th {
+    outline: double dodgerblue;
+}
+
+/*td {
+    border: 1px solid cornflowerblue;
+} */
+table{
+    box-shadow: 10px -10px aquamarine, 20px -20px blue, 30px -30px darkblue;
+    transition: 2s
+}
+table:hover{
+    box-shadow: 10px -10px darkblue, 20px -20px blue, 30px -30px aquamarine;
+    transition: 2s;
+}
+
 .round_image{
     box-sizing: border-box;
     border-radius: 100%;
