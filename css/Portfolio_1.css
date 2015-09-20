@@ -68,11 +68,7 @@ body {
     color: darkslategray;
 }
 
-/* TODO .bw_wrap{
-
-}*/
-
-#transition_1 {
+.transition_1 {
 
 }
 
@@ -83,4 +79,8 @@ body {
 
 .form_area{
     min-width: 25%;
+}
+
+.hr_black{
+    color: black;
 }
