@@ -44,9 +44,9 @@
                 <li>
                     <a href="Playing%20_around_with_css.html"> Playing around with CSS </a>
                 </li>
-                <li>
+                <!--<li>
                     <a href="../html/Resume.html"> Resume </a>
-                </li>
+                </li>-->
                 <li>
                     <a href="https://www.linkedin.com/profile/view?id=AAIAABD_M7IBx4a0xy7GdDXiHC5FLiGWykv8FQQ&trk=nav_responsive_tab_profile"
                        target="_blank"> Linked in </a>
@@ -62,6 +62,7 @@
 <div class="row">
     <div class="col-sm-offset-3 col-sm-6 text-center">
         <h2>Daniel Graff</h2>
+        <div id="contact">
         <h4>
             <p>4150 Dover Lane, Provo, UT 84604</p>
 
@@ -69,6 +70,7 @@
 
             <p>ddgraff12@gmail.com</p>
         </h4>
+        </div>
     </div>
 </div>
 <hr>
@@ -82,9 +84,15 @@
     career
 </div>
 
-<div class="col-sm-offset-1 col-sm-10">
-    <h4>Skills/strengths</h4>
-
+<div class="col-sm-offset-1 col-sm-10 panel-group" id="accordian">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordian"
+                   href="#collapse1">Skills/Strengths</a>
+            </h4>
+        </div>
+<div id="collapse1" class="panel-collapse collapse in">
     <ul>
         <li>Familiar with using Jira to write/execute test cases</li>
         <li>Proven team leader and equally effective team contributor</li>
@@ -99,8 +107,14 @@
 </div>
 
 
-<div class="col-sm-offset-1 col-sm-10">
-    <h4>Experience</h4>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordian"
+                   href="#collapse2">Experience</a>
+            </h4>
+        </div>
+<div id="collapse2" class="panel-collapse collapse in">
     <h5>Xactware - Production Analyst Team Lead – 14/Dec/2014–Present</h5>
     <ul>
         <li>Directly develop/monitor workflow and supervise activities for ~30 external staff</li>
@@ -168,9 +182,16 @@
     </ul>
 </div>
 
-<div class="col-sm-offset-1 col-sm-10">
-    <h4>Education</h4>
-
+<div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordian"
+                   href="#collapse3">Education</a>
+            </h4>
+        </div>
+    <div id="collapse3" class="panel-collapse collapse in">
+    <h5>Mountainland Applied Technology College, Lehi, UT</h5>
+        <ul>Web Programming and Development certificate program, Aug, 2015 - present</ul>
     <h5>Brigham Young University- Hawaii, Laie, HI</h5>
     <ul>
         <li>B.S., Biology Education, 2012</li>
@@ -194,6 +215,9 @@
         </li>
     </ul>
 </div>
+</div>
+    </div>
+        </div>
 
 <!-- Footer -->
 <footer class="hidden-print">
